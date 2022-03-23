@@ -13,6 +13,7 @@
 		42381DFC27C756C2001A6F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42381DFA27C756C2001A6F5B /* Main.storyboard */; };
 		42381DFE27C756C7001A6F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42381DFD27C756C7001A6F5B /* Assets.xcassets */; };
 		42381E0127C756C7001A6F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42381DFF27C756C7001A6F5B /* LaunchScreen.storyboard */; };
+		42928C5027E87CF4000960D0 /* UIWiew+AdditionalProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42928C4F27E87CF4000960D0 /* UIWiew+AdditionalProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		42381DFD27C756C7001A6F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42381E0027C756C7001A6F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42381E0227C756C7001A6F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42928C4F27E87CF4000960D0 /* UIWiew+AdditionalProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWiew+AdditionalProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				42381DF427C756C2001A6F5B /* AppDelegate.swift */,
 				42381DF627C756C2001A6F5B /* SceneDelegate.swift */,
 				42381DF827C756C2001A6F5B /* ViewController.swift */,
+				42928C4F27E87CF4000960D0 /* UIWiew+AdditionalProperties.swift */,
 				42381DFA27C756C2001A6F5B /* Main.storyboard */,
 				42381DFD27C756C7001A6F5B /* Assets.xcassets */,
 				42381DFF27C756C7001A6F5B /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42381DF927C756C2001A6F5B /* ViewController.swift in Sources */,
+				42928C5027E87CF4000960D0 /* UIWiew+AdditionalProperties.swift in Sources */,
 				42381DF527C756C2001A6F5B /* AppDelegate.swift in Sources */,
 				42381DF727C756C2001A6F5B /* SceneDelegate.swift in Sources */,
 			);

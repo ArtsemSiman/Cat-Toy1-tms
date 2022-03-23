@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         super.viewDidLayoutSubviews()
         let heightofButton = catToy.layer.frame.height
         catToy.layer.cornerRadius = heightofButton / 2
-        setupTap()
+       
     }
     
     private func setupSubviews() {
@@ -31,7 +31,9 @@ class ViewController: UIViewController {
         let superViewWidth = viewSize.width
         
         catToy.frame = CGRect(x: superViewWidth / 2 - 25, y: superViewHeight / 2 - 25, width: 50, height: 50)
-        catToy.backgroundColor = UIColor.red
+        catToy.addGradient(withColors: [.white, .red, .white])
+        catToy.makeRound()
+        catToy.addShadow()
         catToy.setTitle("tap", for: .normal)
         self.view.addSubview(catToy)
         
@@ -55,9 +57,5 @@ class ViewController: UIViewController {
         print ("Touch")
     }
     
-    private func setupTap() {
-        let heightofButton = tap.layer.frame.height
-        tap.layer.cornerRadius = heightofButton / 2
-    }
 }
 
